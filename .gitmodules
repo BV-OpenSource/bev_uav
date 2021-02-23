@@ -2,10 +2,6 @@
 	path = control
 	url = git@gitlab.pdmfc.com:drones/ros1/heifu-uav/control.git
     branch = master
-[submodule "simulation"]
-	path = simulation
-	url = git@gitlab.pdmfc.com:drones/ros1/heifu-uav/simulation.git
-    branch = master
 [submodule "interface"]
 	path = interface
 	url = git@gitlab.pdmfc.com:drones/ros1/heifu-uav/interface.git
