@@ -9,15 +9,15 @@
 
     <arg name="argSimulation" default="false"/>
 
+    <!-- Launch waypoints manager node -->
+    <include file="$(find waypoints_manager)/launch/waypoints_manager.launch">
+        <arg name="argNamespace"   value="$(arg argNamespace)"/>
+    </include>
+
     <!-- Launch heifu control node -->
     <include file="$(find control_bringup)/launch/heifu_control.launch">
         <arg name="argNamespace"    value="$(arg argNamespace)"/>
         <arg name="argSimulation"   value="$(arg argSimulation)"/>
-    </include>
-
-    <!-- Launch waypoints manager node -->
-    <include file="$(find waypoints_manager)/launch/waypoints_manager.launch">
-        <arg name="argNamespace"   value="$(arg argNamespace)"/>
     </include>
 
     <!-- Launch GCS Interface-->
