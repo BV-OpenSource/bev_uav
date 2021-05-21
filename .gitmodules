@@ -22,3 +22,7 @@
 	path = utils
 	url = git@gitlab.pdmfc.com:drones/ros1/heifu-uav/utils.git
     branch = master
+[submodule "actuators"]
+	path = actuators
+	url = git@gitlab.pdmfc.com:drones/ros1/heifu-uav/actuators.git
+    branch = master

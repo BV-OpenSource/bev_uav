@@ -8,6 +8,7 @@
     <arg name="argNamespace" default="$(arg argVehicle)$(arg argID)"/>
 
     <arg name="argSimulation" default="false"/>
+    <arg name="argGimbal" default="true"/>
 
     <!-- Launch waypoints manager node -->
     <include file="$(find waypoints_manager)/launch/waypoints_manager.launch">
@@ -20,9 +21,13 @@
         <arg name="argSimulation"   value="$(arg argSimulation)"/>
     </include>
 
-    <!-- Launch GCS Interface-->
+    <!-- Launch GCS Interface -->
     <include file="$(find gcs_interface)/launch/gcs_interface.launch">
         <arg name="argNamespace"    value="$(arg argNamespace)"/>
     </include>
 
+    <!-- Launch Gimbal control -->
+    <include file="$(find gimbal)/launch/gimbal.launch" if="$(arg argGimbal)">
+        <arg name="argNamespace"    value="$(arg argNamespace)"/>
+    </include>
 </launch>
