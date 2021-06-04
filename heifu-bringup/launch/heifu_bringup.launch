@@ -7,8 +7,9 @@
     <arg name="argVehicle"   default="heifu"/>
     <arg name="argNamespace" default="$(arg argVehicle)$(arg argID)"/>
 
-    <arg name="argSimulation" default="false"/>
-    <arg name="argGimbal" default="true"/>
+    <arg name="argSimulation"   default="false"/>
+    <arg name="argGimbal"       default="true"/>
+    <arg name="argEndpoint"     default="preprod"/>
 
     <!-- Launch waypoints manager node -->
     <include file="$(find waypoints_manager)/launch/waypoints_manager.launch">
@@ -24,6 +25,7 @@
     <!-- Launch GCS Interface -->
     <include file="$(find gcs_interface)/launch/gcs_interface.launch">
         <arg name="argNamespace"    value="$(arg argNamespace)"/>
+        <arg name="argEndpoint"     value="$(arg argEndpoint)"/>
     </include>
 
     <!-- Launch Gimbal control -->
