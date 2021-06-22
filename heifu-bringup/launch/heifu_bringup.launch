@@ -18,6 +18,7 @@
 
     <!-- Launch heifu control node -->
     <include file="$(find control_bringup)/launch/heifu_control.launch">
+        <arg name="argID"           value="$(arg argID)"/>
         <arg name="argNamespace"    value="$(arg argNamespace)"/>
         <arg name="argSimulation"   value="$(arg argSimulation)"/>
     </include>
