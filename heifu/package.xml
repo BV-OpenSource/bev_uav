@@ -52,7 +52,6 @@
   <buildtool_depend>catkin</buildtool_depend>
   <exec_depend>collision_avoidance</exec_depend>
   <exec_depend>control_bringup</exec_depend>
-  <exec_depend>follow_object</exec_depend>
   <exec_depend>gcs_interface</exec_depend>
   <exec_depend>gimbal</exec_depend>
   <exec_depend>gnss_utils</exec_depend>
@@ -67,7 +66,6 @@
   <exec_depend>planner</exec_depend>
   <exec_depend>planners_manager</exec_depend>
   <exec_depend>priority_manager</exec_depend>
-  <exec_depend>pytracking</exec_depend>
   <exec_depend>rrt</exec_depend>
   <exec_depend>status_diagnostic</exec_depend>
   <exec_depend>test_mavros</exec_depend>
