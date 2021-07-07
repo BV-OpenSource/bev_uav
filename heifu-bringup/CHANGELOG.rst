@@ -2,8 +2,8 @@
 Changelog for package heifu-bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.8.1 (2021-07-07)
+------------------
 * Fix node naming.
 * Add Endpoint argument for interface.
 * Add gimbal control.
