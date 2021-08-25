@@ -2,8 +2,8 @@
 Changelog for package heifu-bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.8.2 (2021-08-25)
+------------------
 * Add Launch arguments. Change to argparse.
 * Merge branch 'newVersion' of gitlab.pdmfc.com:drones/ros1/heifu-uav/heifu into newVersion
 * Fix license and maintainer/author information.
