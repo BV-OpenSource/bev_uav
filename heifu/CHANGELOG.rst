@@ -2,6 +2,9 @@
 Changelog for package heifu
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.8.2 (2021-08-25)
 ------------------
 * Merge branch 'newVersion' of gitlab.pdmfc.com:drones/ros1/heifu-uav/heifu into newVersion
