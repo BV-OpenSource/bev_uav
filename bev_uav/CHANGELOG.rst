@@ -2,8 +2,10 @@
 Changelog for package heifu
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.8.3 (2021-11-02)
-------------------
+Forthcoming
+-----------
+* Rename package and submodules to BEV UAV prefix.
+* Contributors: André Filipe
 
 0.8.2 (2021-08-25)
 ------------------

@@ -1,0 +1,9 @@
+<library path="lib/libbev_uav_collision_avoidance_nodelet">
+    <class name="CollisionAvoidanceNodelet"
+        type="CollisionAvoidanceNodelet::CollisionAvoidanceNodelet"
+        base_class_type="nodelet::Nodelet">
+        <description>
+            BEV UAV Collision Avoidance Nodelet
+        </description>
+    </class>
+</library>

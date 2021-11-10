@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>bev_uav_gimbal_controller</name>
+  <version>0.8.2</version>
+  <description>Package to control a gimbal via PWM using mavros mount_control</description>
+
+  <maintainer email="andre.ferreira@beyond-vision.pt">André Ferreira</maintainer>
+  <maintainer email="fabio.azevedo@beyond-vision.pt">Fábio Azevedo</maintainer>
+  <author email="andre.ferreira@beyond-vision.pt">André Ferreira</author>
+
+
+  <license>BSD-3</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>mavros_msgs</depend>
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
+

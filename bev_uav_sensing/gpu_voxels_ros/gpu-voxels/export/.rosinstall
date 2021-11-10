@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/aferreira/heifu_ws/src/heifu/sensing/gpu_voxels_ros/gpu-voxels/export/setup.sh

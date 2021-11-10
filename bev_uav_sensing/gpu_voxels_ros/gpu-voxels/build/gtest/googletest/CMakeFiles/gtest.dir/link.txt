@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -Wall -Wno-long-long -msse -msse2 -ffunction-sections   -O2 -g -DNDEBUG  -fomit-frame-pointer    -shared -Wl,-soname,libgtest.so -o ../lib/libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o   -L/usr/local/cuda-10.2/lib64  -Wl,-rpath,/usr/local/cuda-10.2/lib64 -lpthread 

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>bev_uav_priority_manager</name>
+    <version>0.8.2</version>
+    <description>BEV UAV Priority Manager</description>
+
+    <author email="fabio.azevedo@beyond-vision.pt">Fábio Azevedo</author>
+    <maintainer email="fabio.azevedo@beyond-vision.pt">Fábio Azevedo</maintainer>
+    <maintainer email="andre.ferreira@beyond-vision.pt">André Ferreira</maintainer>
+
+    <license>BSD-3</license>
+    <url>https://gitlab.pdmfc.com/drones/ros1/control/priority-manager</url>
+
+    <buildtool_depend>catkin</buildtool_depend>
+    <depend>bev_uav_msgs</depend>
+    <depend>geometry_msgs</depend>
+    <depend>roscpp</depend>
+    <depend>tf2</depend>
+
+    <!-- The export tag contains other, unspecified, tags -->
+    <export>
+    <!-- Other tools can request additional information be placed here -->
+
+    </export>
+</package>
