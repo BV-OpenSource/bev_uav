@@ -15,19 +15,19 @@
     <arg name="argJetson"       default="false"/>
 
     <!-- Launch waypoints manager node -->
-    <include file="$(find waypoints_manager)/launch/waypoints_manager.launch">
+    <include file="$(find bev_uav_waypoints_manager)/launch/waypoints_manager.launch">
         <arg name="argNamespace"   value="$(arg argNamespace)"/>
     </include>
 
     <!-- Launch heifu control node -->
-    <include file="$(find control_bringup)/launch/heifu_control.launch">
+    <include file="$(find bev_uav_control_bringup)/launch/heifu_control.launch">
         <arg name="argID"           value="$(arg argID)"/>
         <arg name="argNamespace"    value="$(arg argNamespace)"/>
         <arg name="argSimulation"   value="$(arg argSimulation)"/>
     </include>
 
     <!-- Launch GCS Interface -->
-    <include file="$(find gcs_interface)/launch/gcs_interface.launch">
+    <include file="$(find bev_uav_gcs_interface)/launch/gcs_interface.launch">
         <arg name="argNamespace"    value="$(arg argNamespace)"/>
         <arg name="argEndpoint"     value="$(arg argEndpoint)"/>
         <arg name="argCamType"      value="$(arg argCamType)"/>
@@ -36,7 +36,7 @@
     </include>
 
     <!-- Launch Gimbal control -->
-    <include file="$(find gimbal)/launch/gimbal.launch" if="$(arg argGimbal)">
+    <include file="$(find bev_uav_gimbal_controller)/launch/gimbal.launch" if="$(arg argGimbal)">
         <arg name="argNamespace"    value="$(arg argNamespace)"/>
     </include>
 </launch>

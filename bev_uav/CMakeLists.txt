@@ -1,4 +1,4 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(heifu-gpu)
+project(bev_uav)
 find_package(catkin REQUIRED)
 catkin_metapackage()

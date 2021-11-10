@@ -1,13 +1,14 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>heifu-bringup</name>
+  <name>bev_uav_gpu</name>
   <version>0.8.3</version>
-  <description>The heifu-bringup package</description>
+  <description>The BEV UAV metapackage that installs all UAV packages including the ones with GPU.</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
   <!-- <maintainer email="jane.doe@example.com">Jane Doe</maintainer> -->
   <maintainer email="andre.ferreira@beyond-vision.pt">André Ferreira</maintainer>
+  <maintainer email="fabio.azevedo@beyond-vision.pt">Fábio Azevedo</maintainer>
 
 
   <!-- One license tag required, multiple allowed, one license per tag -->
@@ -19,13 +20,13 @@
   <!-- Url tags are optional, but multiple are allowed, one per tag -->
   <!-- Optional attribute type can be: website, bugtracker, or repository -->
   <!-- Example: -->
-   <url type="website">http://wiki.ros.org/heifu-bringup</url>
+  <url type="website">http://wiki.ros.org/bev_uav_gpu</url>
 
 
   <!-- Author tags are optional, multiple are allowed, one per tag -->
   <!-- Authors do not have to be maintainers, but could be -->
   <!-- Example: -->
-   <author email="andre.ferreira@beyond-vision.pt">André Ferreira</author>
+  <author email="andre.ferreira@beyond-vision.pt">André Ferreira</author>
 
 
   <!-- The *depend tags are used to specify dependencies -->
@@ -49,12 +50,17 @@
   <!-- Use doc_depend for packages you need only for building documentation: -->
   <!--   <doc_depend>doxygen</doc_depend> -->
   <buildtool_depend>catkin</buildtool_depend>
-  <depend>control_bringup</depend>
-  <depend>waypoints_manager</depend>
-  <depend>gcs_interface</depend>
+  <exec_depend>bev_uav</exec_depend>
+  <exec_depend>bev_uav_collision_avoidance</exec_depend>
+  <exec_depend>bev_uav_planner</exec_depend>
+  <exec_depend>bev_uav_planners_manager</exec_depend>
+  <exec_depend>bev_uav_rrt</exec_depend>
+  <exec_depend>gpu_voxels_ros</exec_depend>
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>
+    <!-- You can specify that this package is a metapackage here: -->
+    <metapackage/>
     <!-- Other tools can request additional information be placed here -->
 
   </export>
