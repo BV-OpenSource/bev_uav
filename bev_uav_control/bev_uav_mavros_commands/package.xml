@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
     <name>bev_uav_mavros_commands</name>
-    <version>0.8.2</version>
+    <version>0.8.3</version>
     <description>BEV UAV Mavros Common Commands</description>
 
     <author email="fabio.azevedo@beyond-vision.pt">Fábio Azevedo</author>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
     <name>gstreamer</name>
-    <version>0.8.2</version>
+    <version>0.8.3</version>
     <description>GStreamer ROS Package</description>
 
     <author email="andre.ferreira@beyond-vision.pt">André Ferreira</author>

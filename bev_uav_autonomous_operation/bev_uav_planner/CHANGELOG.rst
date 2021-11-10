@@ -2,8 +2,8 @@
 Changelog for package planner
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.8.3 (2021-11-10)
+------------------
 * 0.8.2
 * Updated changelog.
 * Contributors: André Filipe

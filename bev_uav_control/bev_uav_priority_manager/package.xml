@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
     <name>bev_uav_priority_manager</name>
-    <version>0.8.2</version>
+    <version>0.8.3</version>
     <description>BEV UAV Priority Manager</description>
 
     <author email="fabio.azevedo@beyond-vision.pt">Fábio Azevedo</author>
